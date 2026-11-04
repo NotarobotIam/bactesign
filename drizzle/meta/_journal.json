@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792149348674,
+      "tag": "0000_neat_shooting_star",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792552222018,
+      "tag": "0001_shiny_mantis",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792557043186,
+      "tag": "0002_peaceful_ma_gnuci",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792560304556,
+      "tag": "0003_same_smiling_tiger",
+      "breakpoints": true
+    }
+  ]
+}

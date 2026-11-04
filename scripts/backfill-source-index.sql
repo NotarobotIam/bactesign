@@ -1,0 +1,2 @@
+INSERT OR IGNORE INTO molecule_sources (source_key,database_name,identifier,molecule_id) SELECT json_extract(s.value,'$.database') || ':' || json_extract(s.value,'$.identifier'),json_extract(s.value,'$.database'),json_extract(s.value,'$.identifier'),m.id FROM molecules m,json_each(m.payload,'$.sources') s;
+INSERT OR IGNORE INTO molecule_sources (source_key,database_name,identifier,molecule_id) SELECT 'PubChem:' || pubchem_cid,'PubChem',pubchem_cid,id FROM molecules WHERE pubchem_cid IS NOT NULL;

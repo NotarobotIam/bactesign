@@ -1,6 +1,6 @@
 {
   "worker": "bactesign",
-  "d1": { "name": "bactesign-db", "id": "0f2acfcb-d8fc-424a-8f4d-d3f7a9d4912d" },
+  "d1": { "name": "bactesign-db", "id": "YOUR-D1-DATABASE-ID" },
   "r2": { "bucket": "bactesign-images" },
   "publicUrl": false
 }
